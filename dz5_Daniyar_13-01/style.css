@@ -1,38 +1,38 @@
 body {
-    background-color: aquamarine;
+    background: #4B0082;
 }
-
-#plus {
-    margin-left: 670px;
-    position: absolute;
-    top: 280px;
-    font-size: 70px;
-    background-color: #e0d119;
-    border-radius: 20px;
+.ex {
+	background:#333;
+	width: 150px;
+	height: 440px;
+	border-radius: 10px;
+	font-size: 70px;
+	text-align:center;
+	padding: 1px 0;
+	border: 6px solid #000;
+	margin: auto;
 }
-
-#minus  {
-    margin-left: 1100px;
-    position: absolute;
-    top: 280px;
-    font-size: 70px;
-    background-color: rebeccapurple;
-    border-radius: 20px;
-    width: 55px;
+.red_inner{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-top: 20px;
+	line-height: 120px;
 }
-
-#schetchik {
-    position: absolute;
-    top: 300px;
-    font-size: 40px;
-    left: 900px;
+.yellow_inner {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-top: 20px;
+	line-height: 120px;
 }
-
-#reset {
-    position: absolute;
-    top: 420px;
-    font-size: 40px;
-    background-color: chocolate;
-    left: 863px;
-    border-radius: 20px;
+.green_inner {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-top: 20px;
+	line-height: 120px;
 }
