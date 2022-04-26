@@ -1,0 +1,31 @@
+body {
+	background-color: #9932CC;
+}
+.reade {
+	display: flex;
+	justify-content: center;
+	padding-top: 150px;
+}
+.name {
+	width: 200px;
+	height: 40px;
+	border-radius: 50px 50px;
+}
+.knopka {
+	width: 150px;
+	height: 50px;
+	border-radius:  40px 40px;
+	background: lightpink;
+	margin-left: 5px;
+}
+.list {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-indent: 250px;
+	width: 1500px;
+}
+.list p {
+	font-size: 38px;
+	color: #ded7d7;
+}
