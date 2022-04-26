@@ -18,12 +18,13 @@ const list = [
 
 ]
 
+
 function render() {
 	const exampleDiv = document.createElement('div');
 	exampleDiv.setAttribute("class", "list");
 	for(let i = 0; i < list.length; i++ ) {
 			const divList = document.createElement('div');
-			divList.setAttribute("class", "burger");
+			divList.setAttribute("class", "free");
 			const p = document.createElement("p");
 			p.innerHTML = list[i].text;
 			divList.append(p);
@@ -37,7 +38,7 @@ btn.onclick = function() {
 	const name = document.getElementById('nick_name')
 	const obj = {
 			id: list.length,
-			text: "Hi  " + name.value
+			text: "hi  " + name.value
 	}
 	this.append(list);
 	list.push(obj);
