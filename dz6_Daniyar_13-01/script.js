@@ -46,17 +46,18 @@ btn.onclick = function() {
 }
 
 
-
-
-
-//"use strict";
-//const nameField = document.getElementById('name');
-//const result = document.getElementById('message');
 //
-//function showMessage() {
-  //result.value = `как ты братишка?, ${nameField.value}!`;
-//}
+// "use strict";
+// const nameField = document.getElementById('name');
+// const result = document.getElementById('message');
 //
-//nameField.addEventListener('reade', showMessage);
+// function showMessage() {
+//   result.value = `как ты братишка?, ${nameField.value}!`;
+// }
+//
+// nameField.addEventListener('reade', showMessage);
+//
+//
+//
 
 
