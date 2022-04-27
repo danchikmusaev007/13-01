@@ -79,3 +79,19 @@ class home {
 }
 const dom = new home(12.000, "orange", "white", "big", 12.12, "brown", "future", "verification", 13, "orange", "just", "big", "powerful", "hyper_x", "yellow" )
 console.log(dom)
+
+class shcool {
+    constructor(book, copybook, studentsbook, desk, pen, board, smartboard, window, magazine, cactus) {
+        this.book = book;
+        this.copybook = copybook;
+        this.desk = desk;
+        this.pen = pen;
+        this.board = board;
+        this.smartboard = smartboard;
+        this.window = window;
+        this.magazine = magazine;
+        this.cactus = cactus;
+    }
+}
+const second = new shcool("just", "lol", "big", "blue", "brown", "cool", "verycool", "white", "red", "green")
+console.log(second)
